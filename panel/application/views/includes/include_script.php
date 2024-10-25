@@ -8,8 +8,9 @@
 <script src="<?php echo base_url("assets"); ?>/libs/bower/PACE/pace.min.js"></script>
 <!-- endbuild -->
 
-<!-- build:js /assets/js/app.min.js -->
-<script src="<?php echo base_url("assets"); ?>/assets/js/library.js"></script>
+<!-- build:js <?php echo base_url("assets"); ?>/assets/js/app.min.js -->
+<!-- <script src="<?php echo base_url("assets"); ?>/assets/js/library.js"></script> -->
+<?php $this->load->view("includes/library"); ?>
 <script src="<?php echo base_url("assets"); ?>/assets/js/plugins.js"></script>
 <script src="<?php echo base_url("assets"); ?>/assets/js/app.js"></script>
 <!-- endbuild -->
