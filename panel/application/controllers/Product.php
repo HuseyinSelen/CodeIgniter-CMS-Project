@@ -13,6 +13,8 @@ class Product extends CI_Controller
         $this->load->model("product_model");
     }
 
+
+
     public function index()
     {
 
@@ -89,5 +91,22 @@ class Product extends CI_Controller
         //Başarısız ise 
         //hata ekranda gösterilir.
 
+    }
+
+    public function update_form($id)
+    {
+        $item = $this->product_model->get(
+            array(
+                "id" => $id
+            )
+        );
+
+        $viewData = new stdClass();
+
+        $viewData->viewFolder = $this->viewFolder;
+        $viewData->subViewFolder = "update";
+        $viewData->item = $item;
+
+        $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
     }
 }
