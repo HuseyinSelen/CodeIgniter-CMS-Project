@@ -38,7 +38,8 @@
                                 <td><?php echo $item->description; ?></td>
                                 <td>
                                     <input
-                                        id="switch-2-2"
+                                        data-url="<?php echo base_url("product/isActiveSetter/$item->id"); ?>"
+                                        class="isActive"
                                         type="checkbox"
                                         data-switchery
                                         data-color="#10c469"
