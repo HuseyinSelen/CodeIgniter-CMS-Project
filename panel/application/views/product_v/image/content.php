@@ -1,10 +1,5 @@
 <div class="row">
     <div class="col-md-12">
-        <h4 class="m-b-lg">
-            Ürünün Fotoğrafları...
-        </h4>
-    </div><!-- END column -->
-    <div class="col-md-12">
         <div class="widget">
             <div class="widget-body">
                 <form action="../api/dropzone" class="dropzone" data-plugin="dropzone" data-options="{ url: '../api/dropzone'}">
@@ -26,7 +21,7 @@
     <div class="col-md-12">
         <div class="widget">
             <div class="widget-body">
-                <table class="table table-bordered table-striped table-hover">
+                <table class="table table-bordered table-striped table-hover pictures_list">
                     <thead>
                         <th>#id</th>
                         <th>Görsel</th>
@@ -36,53 +31,53 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>#1</td>
-                            <td><img width="30" src="https://images.unsplash.com/photo-1576158114131-f211996e9137?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-responsive"></td>
+                            <td class=".w100 text-center">#1</td>
+                            <td class=".w100 text-center"><img width="30" src="https://images.unsplash.com/photo-1576158114131-f211996e9137?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-responsive"></td>
                             <td>deneme-urunu.jpg</td>
-                            <td><input
+                            <td class=".w100 text-center"><input
                                     data-url="<?php echo base_url("product/isActiveSetter/"); ?>"
                                     class="isActive"
                                     type="checkbox"
                                     data-switchery
                                     data-color="#10c469"
                                     <?php echo (true) ? "checked" : ""; ?> /></td>
-                            <td>
+                            <td class=".w100 text-center">
                                 <button
-                                    data-url="<?php echo base_url("product/delete/"); ?>" class="btn btn-xs btn-danger btn-outline remove-btn">
+                                    data-url="<?php echo base_url("product/delete/"); ?>" class="btn btn-xs btn-danger btn-outline btn-block remove-btn">
                                     <i class="fa fa-trash"></i>Sil</button>
                             </td>
                         </tr>
                         <tr>
-                            <td>#1</td>
-                            <td><img width="30" src="https://images.unsplash.com/photo-1576158114131-f211996e9137?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-responsive"></td>
+                            <td class=".w100 text-center">#1</td>
+                            <td class=".w100 text-center"><img width="30" src="https://images.unsplash.com/photo-1576158114131-f211996e9137?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-responsive"></td>
                             <td>deneme-urunu.jpg</td>
-                            <td><input
+                            <td class=".w100 text-center"><input
                                     data-url="<?php echo base_url("product/isActiveSetter/"); ?>"
                                     class="isActive"
                                     type="checkbox"
                                     data-switchery
                                     data-color="#10c469"
                                     <?php echo (true) ? "checked" : ""; ?> /></td>
-                            <td>
+                            <td class=".w100 text-center">
                                 <button
-                                    data-url="<?php echo base_url("product/delete/"); ?>" class="btn btn-xs btn-danger btn-outline remove-btn">
+                                    data-url="<?php echo base_url("product/delete/"); ?>" class="btn btn-xs btn-danger btn-outline btn-block remove-btn">
                                     <i class="fa fa-trash"></i>Sil</button>
                             </td>
                         </tr>
                         <tr>
-                            <td>#1</td>
-                            <td><img width="30" src="https://images.unsplash.com/photo-1576158114131-f211996e9137?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-responsive"></td>
+                            <td class=".w100 text-center">#1</td>
+                            <td class=".w100 text-center"><img width="30" src="https://images.unsplash.com/photo-1576158114131-f211996e9137?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-responsive"></td>
                             <td>deneme-urunu.jpg</td>
-                            <td><input
+                            <td class=".w100 text-center"><input
                                     data-url="<?php echo base_url("product/isActiveSetter/"); ?>"
                                     class="isActive"
                                     type="checkbox"
                                     data-switchery
                                     data-color="#10c469"
                                     <?php echo (true) ? "checked" : ""; ?> /></td>
-                            <td>
+                            <td class=".w100 text-center">
                                 <button
-                                    data-url="<?php echo base_url("product/delete/"); ?>" class="btn btn-xs btn-danger btn-outline remove-btn">
+                                    data-url="<?php echo base_url("product/delete/"); ?>" class="btn btn-xs btn-danger btn-outline btn-block remove-btn">
                                     <i class="fa fa-trash"></i>Sil</button>
                             </td>
                         </tr>
