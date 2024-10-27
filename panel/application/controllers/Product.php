@@ -32,7 +32,6 @@ class Product extends CI_Controller
 
         $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
     }
-
     public function new_form()
     {
         $viewData = new stdClass();
@@ -42,7 +41,6 @@ class Product extends CI_Controller
 
         $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
     }
-
     public function save()
     {
         $this->load->library("form_validation");
@@ -92,7 +90,6 @@ class Product extends CI_Controller
         //hata ekranda gösterilir.
 
     }
-
     public function update_form($id)
     {
         $item = $this->product_model->get(
@@ -170,5 +167,17 @@ class Product extends CI_Controller
         //Başarısız ise 
         //hata ekranda gösterilir.
 
+    }
+    public function delete($id)
+    {
+        $delete = $this->product_model->delete(array(
+            "id" => $id
+        ));
+        //TODO alert sistemi eklenecek
+        if ($delete) {
+            redirect(base_url("product"));
+        } else {
+            redirect(base_url("product"));
+        }
     }
 }
