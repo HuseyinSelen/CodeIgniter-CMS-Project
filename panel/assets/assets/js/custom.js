@@ -53,16 +53,21 @@ $(document).ready(function () {
             jackColor: jackColor,
           });
         });
+        $(".sortable").sortable();
       });
     }
   });
 
-  $(".sortable").on("sortupdate", function (event, ui) {
-    var $data = $(this).sortable("serialize");
-    var $data_url = $(this).data("url");
+  $(".content-container, .image_list_container").on(
+    "sortupdate",
+    ".sortable",
+    function (event, ui) {
+      var $data = $(this).sortable("serialize");
+      var $data_url = $(this).data("url");
 
-    $.post($data_url, { data: $data }, function (response) {});
-  });
+      $.post($data_url, { data: $data }, function (response) {});
+    }
+  );
 
   var uploadSection = Dropzone.forElement("#dropzone");
 
@@ -84,6 +89,7 @@ $(document).ready(function () {
           jackColor: jackColor,
         });
       });
+      $(".sortable").sortable();
     });
   });
 });
