@@ -22,21 +22,21 @@ if (empty($item_images)) { ?>
                     <td><?php echo $image->img_url; ?></td>
                     <td class=".w100 text-center">
                         <input
-                            data-url="<?php echo base_url("product/isActiveSetter/"); ?>"
+                            data-url="<?php echo base_url("product/imageIsActiveSetter/$image->id"); ?>"
                             class="isActive"
                             type="checkbox"
                             data-switchery
                             data-color="#10c469"
-                            <?php echo ($image->id) ? "checked" : ""; ?> />
+                            <?php echo ($image->isActive) ? "checked" : ""; ?> />
                     </td>
                     <td class=".w100 text-center">
                         <input
-                            data-url="<?php echo base_url("product/isActiveSetter/"); ?>"
-                            class="isActive"
+                            data-url="<?php echo base_url("product/isCoverSetter/$image->id/$image->product_id"); ?>"
+                            class="isCover"
                             type="checkbox"
                             data-switchery
                             data-color="#ff5b5b"
-                            <?php echo ($image->id) ? "checked" : ""; ?> />
+                            <?php echo ($image->isCover) ? "checked" : ""; ?> />
                     </td>
                     <td class=".w100 text-center">
                         <button
