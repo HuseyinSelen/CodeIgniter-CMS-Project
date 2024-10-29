@@ -43,7 +43,7 @@ if (empty($item_images)) { ?>
                     </td>
                     <td class=".w100 text-center">
                         <button
-                            data-url="<?php echo base_url("product/delete/"); ?>" class="btn btn-xs btn-danger btn-outline btn-block remove-btn">
+                            data-url="<?php echo base_url("product/imageDelete/$image->id/$image->product_id"); ?>" class="btn btn-xs btn-danger btn-outline btn-block remove-btn">
                             <i class="fa fa-trash"></i>Sil</button>
                     </td>
                 </tr> <?php } ?>
