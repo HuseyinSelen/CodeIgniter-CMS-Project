@@ -35,4 +35,10 @@ $(document).ready(function () {
 
     $.post($data_url, { data: $data }, function (response) {});
   });
+
+  var uploadSection = Dropzone.forElement("#dropzone");
+
+  uploadSection.on("complete", function () {
+    alert();
+  });
 });
