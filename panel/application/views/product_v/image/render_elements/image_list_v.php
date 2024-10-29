@@ -11,6 +11,7 @@ if (empty($item_images)) { ?>
             <th>Görsel</th>
             <th>Resim Adı</th>
             <th>Durumu</th>
+            <th>Kapak</th>
             <th>İşlem</th>
         </thead>
         <tbody>
@@ -19,13 +20,24 @@ if (empty($item_images)) { ?>
                     <td class=".w100 text-center">#<?php echo $image->id; ?></td>
                     <td class=".w100 text-center"><img width="30" src="<?php echo base_url("uploads/{$viewFolder}/$image->img_url"); ?>" alt="<?php echo $image->img_url; ?>" class="img-responsive"></td>
                     <td><?php echo $image->img_url; ?></td>
-                    <td class=".w100 text-center"><input
+                    <td class=".w100 text-center">
+                        <input
                             data-url="<?php echo base_url("product/isActiveSetter/"); ?>"
                             class="isActive"
                             type="checkbox"
                             data-switchery
                             data-color="#10c469"
-                            <?php echo ($image->id) ? "checked" : ""; ?> /></td>
+                            <?php echo ($image->id) ? "checked" : ""; ?> />
+                    </td>
+                    <td class=".w100 text-center">
+                        <input
+                            data-url="<?php echo base_url("product/isActiveSetter/"); ?>"
+                            class="isActive"
+                            type="checkbox"
+                            data-switchery
+                            data-color="#ff5b5b"
+                            <?php echo ($image->id) ? "checked" : ""; ?> />
+                    </td>
                     <td class=".w100 text-center">
                         <button
                             data-url="<?php echo base_url("product/delete/"); ?>" class="btn btn-xs btn-danger btn-outline btn-block remove-btn">

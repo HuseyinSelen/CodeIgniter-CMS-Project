@@ -21,7 +21,9 @@
     <div class="col-md-12">
         <div class="widget">
             <div class="widget-body image_list_container">
+
                 <?php $this->load->view("{$viewFolder}/{$subViewFolder}/render_elements/image_list_v"); ?>
+
             </div><!-- .widget-body -->
         </div><!-- .widget -->
     </div><!-- END column -->
