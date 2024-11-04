@@ -1,4 +1,9 @@
 $(document).ready(function () {
+  iziToast.show({
+    title: "Hey",
+    message: "What would you like to add?",
+  });
+
   $(".sortable").sortable();
 
   $(".content-container, .image_list_container").on(
