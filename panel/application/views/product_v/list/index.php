@@ -3,6 +3,7 @@
 
 <head>
     <?php $this->load->view("includes/head"); ?>
+
 </head>
 
 <body class="menubar-left menubar-unfold menubar-light theme-primary">

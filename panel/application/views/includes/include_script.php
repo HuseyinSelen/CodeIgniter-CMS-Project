@@ -9,7 +9,8 @@
 <!-- endbuild -->
 
 <!-- build:js <?php echo base_url("assets"); ?>/assets/js/app.min.js -->
-<!-- <script src="<?php echo base_url("assets"); ?>/assets/js/library.js"></script> -->
+<!--<script src="--><?php //echo base_url("assets"); 
+                    ?><!--/assets/js/library.js"></script>-->
 <?php $this->load->view("includes/library"); ?>
 <script src="<?php echo base_url("assets"); ?>/assets/js/plugins.js"></script>
 <script src="<?php echo base_url("assets"); ?>/assets/js/app.js"></script>
@@ -19,4 +20,24 @@
 <script src="<?php echo base_url("assets"); ?>/assets/js/fullcalendar.js"></script>
 
 <script src="<?php echo base_url("assets"); ?>/assets/js/sweetalert2.all.js"></script>
-<!-- <script src="<?php echo base_url("assets"); ?>/assets/js/custom.js"></script> -->
+
+<script src="<?php echo base_url("assets"); ?>/assets/js/iziToast.js"></script>
+
+<script src="<?php echo base_url("assets"); ?>/assets/js/iziToast.min.js"></script>
+
+<?php $this->load->view("includes/alert"); ?>
+
+<?php if ($this->session->flashdata('alert')): ?>
+    <script>
+        iziToast.<?php $this->session->flashdata('alert')['type']; ?>({
+            title: "<?php echo $this->session->flashdata('alert')['title']; ?>",
+            message: "<?php echo $this->session->flashdata('alert')['text']; ?>"
+        });
+        <?php $this->session->unset_userdata('alert'); ?> // Oturumdan kaldırarak tekrarını engelleyebilirsiniz.
+    </script>
+<?php endif; ?>
+
+
+
+<!--<script src="--><?php //echo base_url("assets"); 
+                    ?><!--/assets/js/custom.js"></script>-->
