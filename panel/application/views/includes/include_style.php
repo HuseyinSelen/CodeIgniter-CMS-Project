@@ -10,8 +10,6 @@
 <!-- endbuild -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300">
 
-<link rel="stylesheet" href="<?php echo base_url("assets"); ?>/assets/css/iziToast.css">
-
 <link rel="stylesheet" href="<?php echo base_url("assets"); ?>/assets/css/iziToast.min.css">
 
 <link rel="stylesheet" href="<?php echo base_url("assets"); ?>/assets/css/custom.css">

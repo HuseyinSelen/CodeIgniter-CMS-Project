@@ -8,6 +8,7 @@ class News_model extends CI_Model
     public function __construct()
     {
         parent::__construct();
+
     }
 
     public function get($where = array())
@@ -35,4 +36,5 @@ class News_model extends CI_Model
     {
         return $this->db->where($where)->delete($this->tableName);
     }
+
 }
