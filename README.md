@@ -54,11 +54,11 @@ This project is a **Content Management System (CMS)** built using the **CodeIgni
 );
 you need to do this for the site and panel folders  
 
-4. Create your database and import the database.sql file.
+ 4. Create your database and import the database.sql file.
    
-5. Start the server (Wamp):
+ 5. Start the server (Wamp):
 
-6. Open in your browser:
+ 6. Open in your browser:
    http://localhost/cms/panel or http://localhost/cms/site
 
 ## ❗ Important!
