@@ -58,7 +58,7 @@ This project is a **Content Management System (CMS)** built using the **CodeIgni
    
 please perform this operation separately in the panel and site folders !
 
- 4. Create your database and import the database.sql file.
+ 4. Create your database and import the cms.sql file.
    
  5. Start the server (Wamp):
 
