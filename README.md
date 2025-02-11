@@ -56,7 +56,7 @@ This project is a **Content Management System (CMS)** built using the **CodeIgni
 	'failover' => array(),
 	'save_queries' => TRUE);
    
-you need to do this for the site and panel folders  
+please perform this operation separately in the panel and site folders !
 
  4. Create your database and import the database.sql file.
    
