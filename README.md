@@ -64,10 +64,10 @@ you need to do this for the site and panel folders
 ## ❗ Important!
 Please make sure that php and VS Code versions are compatible.
 
-🎯 Contributing
+##🎯 Contributing
 If you would like to contribute to this project, feel free to submit a pull request or open an issue. 🎉
 
-📜 License
+##📜 License
 This project is licensed under the MIT License.
 
 
