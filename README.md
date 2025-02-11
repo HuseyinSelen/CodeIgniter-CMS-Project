@@ -2,6 +2,13 @@
 
 ![CodeIgniter](site/assets/images/codeigniter_logo.png)
 
+![screenshot1](site/assets/images/screenshot1.png)
+![screenshot2](site/assets/images/screenshot2.png)
+![screenshot3](site/assets/images/screenshot3.png)
+![screenshot6](site/assets/images/screenshot6.png)
+
+
+
 ## 📖 About the Project
 This project is a **Content Management System (CMS)** built using the **CodeIgniter PHP framework**. It allows administrators to manage website content efficiently through a user-friendly dashboard. Updates made in the CMS can be viewed directly on the website in real-time.
 
