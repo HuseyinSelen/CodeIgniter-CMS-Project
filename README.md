@@ -80,7 +80,7 @@ Please make sure that php and VS Code versions are compatible.
 If you would like to contribute to this project, feel free to submit a pull request or open an issue. 🎉
 
 ### 📷 Captcha and Map
-![screenshot6](site/assets/images/screenshot6.png)
+![screenshot6](site/assets/images/screenshot5.png)
 
 ## 📜 License
 This project is licensed under the MIT License.
