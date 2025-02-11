@@ -30,7 +30,11 @@ This project is a **Content Management System (CMS)** built using the **CodeIgni
    cd codeigniter
    
 3. Configure the config/config.php and config/database.php files:
+
+   ```php
+   
    $config['base_url'] = 'http://localhost/cms/panel/';
+
    $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
@@ -50,8 +54,8 @@ This project is a **Content Management System (CMS)** built using the **CodeIgni
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
-);
+	'save_queries' => TRUE);
+   
 you need to do this for the site and panel folders  
 
  4. Create your database and import the database.sql file.
