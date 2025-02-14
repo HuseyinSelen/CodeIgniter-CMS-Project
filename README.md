@@ -82,8 +82,12 @@ If you would like to contribute to this project, feel free to submit a pull requ
 ### 📷 Captcha and Map
 ![screenshot6](site/assets/images/screenshot7.png)
 
+## 🤝 Contribute  
+Would you like to contribute to this project? Please check out the [CONTRIBUTING.md](CONTRIBUTING.md) file!  
+
 ## 📜 License
 This project is licensed under the MIT License.
+
 
 
 
