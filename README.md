@@ -86,7 +86,7 @@ If you would like to contribute to this project, feel free to submit a pull requ
 Would you like to contribute to this project? Please check out the [CONTRIBUTING.md](CONTRIBUTING.md) file!  
 
 ## 📜 License
-This project is licensed under the MIT License.
+MIT License © 2025 - Hüseyin Selen
 
 
 
